@@ -1,0 +1,78 @@
+
+
+
+
+{
+  "employees": [
+    {
+      "name": "Tony Stark",
+      "id": 1,
+      "departmentId": 3,
+      "computerId": 1
+    },
+    {
+      "name": "Kevin Feige",
+      "id": 2,
+      "departmentId":2,
+      "computerId": 4
+    },
+    {
+      "name": "Tom Brokaw",
+      "id": 3,
+      "departmentId": 4,
+      "computerId": 3
+    },
+    {
+      "name": "Bill Murray",
+      "id": 4,
+      "departmentId": 1,
+      "computerId": 2
+    },
+    {
+      "name": "Lawrence Welk",
+      "id": 5,
+      "departmentId": 3,
+      "computerId": 5
+    }
+  ],
+  "departments": [
+    {
+      "deptName": "IT",
+      "id": 1
+    },
+    {
+      "deptName": "Management",
+      "id": 2
+    },
+    {
+      "deptName": "Production",
+      "id": 3
+    },
+    {
+      "deptName": "Public Relations",
+      "id": 4
+    }
+  ],
+  "computers": [
+    {
+      "model": "2019 JarvisX1000",
+      "id": 1
+    },
+    {
+      "model": "2019 Surface Pro",
+      "id": 2
+    },
+    {
+      "model": "2019 MacBook",
+      "id": 3
+    },
+    {
+      "model": "2019 Dell XPS",
+      "id": 4
+    },
+    {
+      "model": "1566 Abacus",
+      "id": 5
+    }
+  ]
+}
