@@ -12,11 +12,11 @@ API.getInfo()
     employees.forEach(employee => {
         console.log(employee)
         const name = employee.name
-        // console.log(name)
+        console.log(name)
         const department = employee.department.deptName
-        // console.log(department)
+        console.log(department)
         const computer = employee.computer.model
-        // console.log(computer)
+        console.log(computer)
         console.log(name, department, computer)
         let HTMLRepresentation = createHTML(name, department, computer)
         console.log(HTMLRepresentation)
