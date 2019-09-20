@@ -11,9 +11,11 @@ API.getData()
 .then(employees => {
     employees.forEach(employee => {
         const name = employee.name
-        const department = employee.department.departName
+        console.log(name)
+        const department = employee.department.deptName
         const computer = employee.computer.model
-        const HTMLRepresentation = createtHTML(name, department, computer)
+        console.log(name,department,computer)
+        const HTMLRepresentation = createHTML(name, department, computer)
         renderToDom(HTMLRepresentation)
     })
 })

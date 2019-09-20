@@ -1,4 +1,4 @@
-const smallBusinessContainer = document.querySelector("#small-businesss-container")
+const smallBusinessContainer = document.getElementById("#small-businesss-container")
 
 const renderToDom = (HTMLString) => {
     smallBusinessContainer.innerHTML += HTMLString
