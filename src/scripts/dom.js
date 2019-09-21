@@ -1,7 +1,7 @@
+const businessContainer = document.querySelector("#container")
 
-smallBusinessContainer = document.querySelector("#business-container")
-const renderToDom = (HTMLRepresentation) => {
- return
-    smallBusinessContainer.innerHTML += HTMLRepresentation
+const renderToDom = (HTMLString) => {
+    businessContainer.innerHTML += HTMLString
 }
+
 export default renderToDom
